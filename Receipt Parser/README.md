@@ -45,10 +45,4 @@ npm run dev
 
 ---
 
-## More detail
-
-**File layout, what each file does, OCR, and step-by-step parsing:** see **[EXPLANATION.md](./EXPLANATION.md)**.
-
-**API:** `POST /parse-receipt` (form field `receipt`), `POST /save-receipt` (JSON body), `GET /receipts`.
-
 License: **ISC** (`package.json`).
