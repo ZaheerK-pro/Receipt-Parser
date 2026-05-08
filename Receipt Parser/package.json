@@ -1,0 +1,21 @@
+{
+  "name": "receipt-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w apps/server\" \"npm run dev -w apps/client\"",
+    "test": "npm run test -w apps/server",
+    "build": "npm run build -w apps/server && npm run build -w apps/client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
